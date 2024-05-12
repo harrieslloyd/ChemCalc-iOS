@@ -54,14 +54,14 @@
                             <tableViewSection headerTitle="Phase Changes" id="Awn-vT-2Ax">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="k6N-KI-BBB">
-                                        <rect key="frame" x="20" y="55.333332061767578" width="353" height="43"/>
+                                        <rect key="frame" x="20" y="55.333332061767578" width="353" height="43.333332061767578"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k6N-KI-BBB" id="Sy4-oh-cwP">
-                                            <rect key="frame" x="0.0" y="0.0" width="322.66666666666669" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="322.66666666666669" height="43.333332061767578"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculate Energy From Heating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKg-K9-QW7">
-                                                    <rect key="frame" x="20" y="11" width="292.66666666666669" height="21"/>
+                                                    <rect key="frame" x="20" y="10.999999999999998" width="292.66666666666669" height="21.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -74,7 +74,7 @@
                                                 <constraint firstItem="dKg-K9-QW7" firstAttribute="leading" secondItem="Sy4-oh-cwP" secondAttribute="leadingMargin" id="zlM-SS-Gw1"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemFillColor"/>
                                         <connections>
                                             <segue destination="VfN-8T-sbP" kind="show" id="3BE-UV-yWO"/>
                                         </connections>
@@ -226,6 +226,9 @@
     <resources>
         <image name="Energy" width="11" height="13"/>
         <image name="tray.and.arrow.down.fill" catalog="system" width="128" height="117"/>
+        <systemColor name="secondarySystemFillColor">
+            <color red="0.47058823529411764" green="0.47058823529411764" blue="0.50196078431372548" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
