@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ACE22DEF5AD78DA34D3C0D4 /* Pods_Chemistry_ChemistryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077ACF44BEA4F0AC8DD9DE7E /* Pods_Chemistry_ChemistryUITests.framework */; };
 		B46AE7BA2BF0646700199834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AE7B92BF0646700199834 /* AppDelegate.swift */; };
 		B46AE7BC2BF0646700199834 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AE7BB2BF0646700199834 /* SceneDelegate.swift */; };
-		B46AE7BE2BF0646700199834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AE7BD2BF0646700199834 /* ViewController.swift */; };
 		B46AE7C12BF0646800199834 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B46AE7C02BF0646800199834 /* Base */; };
 		B46AE7C32BF0646900199834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46AE7C22BF0646900199834 /* Assets.xcassets */; };
 		B46AE7C62BF0646900199834 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B46AE7C52BF0646900199834 /* Base */; };
 		B46AE7D12BF0646900199834 /* ChemistryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AE7D02BF0646900199834 /* ChemistryTests.swift */; };
 		B46AE7DB2BF0646900199834 /* ChemistryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AE7DA2BF0646900199834 /* ChemistryUITests.swift */; };
 		B46AE7DD2BF0646900199834 /* ChemistryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AE7DC2BF0646900199834 /* ChemistryUITestsLaunchTests.swift */; };
+		B46AE7EA2BF08ABE00199834 /* enFromPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AE7E92BF08ABE00199834 /* enFromPhase.swift */; };
+		CF33A0E564EB5033F00AFDCA /* Pods_Chemistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163E02EACF7D8B73D12A8359 /* Pods_Chemistry.framework */; };
+		FA2665065300634BCEB80AAB /* Pods_ChemistryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC21557B340ADFE911780CC /* Pods_ChemistryTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077ACF44BEA4F0AC8DD9DE7E /* Pods_Chemistry_ChemistryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chemistry_ChemistryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		163E02EACF7D8B73D12A8359 /* Pods_Chemistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chemistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B7096B288BE8708D962A9F /* Pods-ChemistryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChemistryTests.release.xcconfig"; path = "Target Support Files/Pods-ChemistryTests/Pods-ChemistryTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EF83E14592EC0BF1D0D95F8 /* Pods-Chemistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry.release.xcconfig"; path = "Target Support Files/Pods-Chemistry/Pods-Chemistry.release.xcconfig"; sourceTree = "<group>"; };
+		6D5ED0B7EE9E05002FF8915D /* Pods-Chemistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry.debug.xcconfig"; path = "Target Support Files/Pods-Chemistry/Pods-Chemistry.debug.xcconfig"; sourceTree = "<group>"; };
+		86636647F6FE232184AF5EB6 /* Pods-Chemistry-ChemistryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry-ChemistryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chemistry-ChemistryUITests/Pods-Chemistry-ChemistryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9664DE3CC8D0C2067B9F8D68 /* Pods-Chemistry-ChemistryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chemistry-ChemistryUITests.release.xcconfig"; path = "Target Support Files/Pods-Chemistry-ChemistryUITests/Pods-Chemistry-ChemistryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ACC21557B340ADFE911780CC /* Pods_ChemistryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChemistryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46AE7B62BF0646700199834 /* Chemistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chemistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46AE7B92BF0646700199834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B46AE7BB2BF0646700199834 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B46AE7BD2BF0646700199834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B46AE7C02BF0646800199834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B46AE7C22BF0646900199834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B46AE7C52BF0646900199834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		B46AE7D62BF0646900199834 /* ChemistryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemistryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46AE7DA2BF0646900199834 /* ChemistryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistryUITests.swift; sourceTree = "<group>"; };
 		B46AE7DC2BF0646900199834 /* ChemistryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B46AE7E92BF08ABE00199834 /* enFromPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enFromPhase.swift; sourceTree = "<group>"; };
+		C74F32FE2283DE57D8DB9F86 /* Pods-ChemistryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChemistryTests.debug.xcconfig"; path = "Target Support Files/Pods-ChemistryTests/Pods-ChemistryTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF33A0E564EB5033F00AFDCA /* Pods_Chemistry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2665065300634BCEB80AAB /* Pods_ChemistryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ACE22DEF5AD78DA34D3C0D4 /* Pods_Chemistry_ChemistryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CDAFCE315FFA1C28672FEF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				163E02EACF7D8B73D12A8359 /* Pods_Chemistry.framework */,
+				077ACF44BEA4F0AC8DD9DE7E /* Pods_Chemistry_ChemistryUITests.framework */,
+				ACC21557B340ADFE911780CC /* Pods_ChemistryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3F129D499D4CF6AD465EA96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D5ED0B7EE9E05002FF8915D /* Pods-Chemistry.debug.xcconfig */,
+				5EF83E14592EC0BF1D0D95F8 /* Pods-Chemistry.release.xcconfig */,
+				86636647F6FE232184AF5EB6 /* Pods-Chemistry-ChemistryUITests.debug.xcconfig */,
+				9664DE3CC8D0C2067B9F8D68 /* Pods-Chemistry-ChemistryUITests.release.xcconfig */,
+				C74F32FE2283DE57D8DB9F86 /* Pods-ChemistryTests.debug.xcconfig */,
+				29B7096B288BE8708D962A9F /* Pods-ChemistryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B46AE7AD2BF0646700199834 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				B46AE7CF2BF0646900199834 /* ChemistryTests */,
 				B46AE7D92BF0646900199834 /* ChemistryUITests */,
 				B46AE7B72BF0646700199834 /* Products */,
+				A3F129D499D4CF6AD465EA96 /* Pods */,
+				1CDAFCE315FFA1C28672FEF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +139,9 @@
 		B46AE7B82BF0646700199834 /* Chemistry */ = {
 			isa = PBXGroup;
 			children = (
+				B46AE7E92BF08ABE00199834 /* enFromPhase.swift */,
 				B46AE7B92BF0646700199834 /* AppDelegate.swift */,
 				B46AE7BB2BF0646700199834 /* SceneDelegate.swift */,
-				B46AE7BD2BF0646700199834 /* ViewController.swift */,
 				B46AE7BF2BF0646800199834 /* Main.storyboard */,
 				B46AE7C22BF0646900199834 /* Assets.xcassets */,
 				B46AE7C42BF0646900199834 /* LaunchScreen.storyboard */,
@@ -134,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B46AE7E02BF0646900199834 /* Build configuration list for PBXNativeTarget "Chemistry" */;
 			buildPhases = (
+				9E50BB200A531AAA4B6BDA87 /* [CP] Check Pods Manifest.lock */,
 				B46AE7B22BF0646700199834 /* Sources */,
 				B46AE7B32BF0646700199834 /* Frameworks */,
 				B46AE7B42BF0646700199834 /* Resources */,
+				A95F479FF280D0F1E6FCAB28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B46AE7E32BF0646900199834 /* Build configuration list for PBXNativeTarget "ChemistryTests" */;
 			buildPhases = (
+				CCED279F6A24D8161E14DF2C /* [CP] Check Pods Manifest.lock */,
 				B46AE7C82BF0646900199834 /* Sources */,
 				B46AE7C92BF0646900199834 /* Frameworks */,
 				B46AE7CA2BF0646900199834 /* Resources */,
@@ -169,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B46AE7E62BF0646900199834 /* Build configuration list for PBXNativeTarget "ChemistryUITests" */;
 			buildPhases = (
+				D7D0FCF1AE1B5A424A36E150 /* [CP] Check Pods Manifest.lock */,
 				B46AE7D22BF0646900199834 /* Sources */,
 				B46AE7D32BF0646900199834 /* Frameworks */,
 				B46AE7D42BF0646900199834 /* Resources */,
+				19E542C53F2D60D30B81FE56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +298,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19E542C53F2D60D30B81FE56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chemistry-ChemistryUITests/Pods-Chemistry-ChemistryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chemistry-ChemistryUITests/Pods-Chemistry-ChemistryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chemistry-ChemistryUITests/Pods-Chemistry-ChemistryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E50BB200A531AAA4B6BDA87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chemistry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95F479FF280D0F1E6FCAB28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chemistry/Pods-Chemistry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chemistry/Pods-Chemistry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chemistry/Pods-Chemistry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCED279F6A24D8161E14DF2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChemistryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7D0FCF1AE1B5A424A36E150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chemistry-ChemistryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B46AE7B22BF0646700199834 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B46AE7BE2BF0646700199834 /* ViewController.swift in Sources */,
 				B46AE7BA2BF0646700199834 /* AppDelegate.swift in Sources */,
 				B46AE7BC2BF0646700199834 /* SceneDelegate.swift in Sources */,
+				B46AE7EA2BF08ABE00199834 /* enFromPhase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +501,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +564,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,13 +585,18 @@
 		};
 		B46AE7E12BF0646900199834 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5ED0B7EE9E05002FF8915D /* Pods-Chemistry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R89277RGN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chemistry/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ChemCalc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -464,13 +617,18 @@
 		};
 		B46AE7E22BF0646900199834 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF83E14592EC0BF1D0D95F8 /* Pods-Chemistry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R89277RGN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chemistry/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ChemCalc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -491,6 +649,7 @@
 		};
 		B46AE7E42BF0646900199834 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C74F32FE2283DE57D8DB9F86 /* Pods-ChemistryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +669,7 @@
 		};
 		B46AE7E52BF0646900199834 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B7096B288BE8708D962A9F /* Pods-ChemistryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +689,7 @@
 		};
 		B46AE7E72BF0646900199834 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86636647F6FE232184AF5EB6 /* Pods-Chemistry-ChemistryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +707,7 @@
 		};
 		B46AE7E82BF0646900199834 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9664DE3CC8D0C2067B9F8D68 /* Pods-Chemistry-ChemistryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
